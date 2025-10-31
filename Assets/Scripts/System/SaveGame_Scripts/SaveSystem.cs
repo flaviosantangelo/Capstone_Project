@@ -47,7 +47,7 @@ public static class SaveSystem
                 data = (GameData)formatter.Deserialize(cryptoStream);
             }
         }
-        catch (System.Exception e)
+        catch (System.Exception)
         {
             return null; 
         }
