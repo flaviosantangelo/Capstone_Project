@@ -5292,7 +5292,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 5}
+  m_Size: {x: 2, y: 4}
   m_EdgeRadius: 0
 --- !u!95 &62265018
 Animator:
@@ -6227,7 +6227,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &150640676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7330,7 +7330,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4.8, y: 4.8}
+  m_Size: {x: 4, y: 4}
   m_Direction: 0
 --- !u!50 &338811755
 Rigidbody2D:
@@ -7983,7 +7983,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 5}
+  m_Size: {x: 2, y: 4}
   m_EdgeRadius: 0
 --- !u!95 &377123805
 Animator:
@@ -8756,6 +8756,8 @@ Transform:
   m_Children:
   - {fileID: 1960405236}
   - {fileID: 1087734852}
+  - {fileID: 1229823316}
+  - {fileID: 602720243}
   - {fileID: 1511947253}
   m_Father: {fileID: 1193846881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9584,6 +9586,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 563850809}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &602720242
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 506760887}
+    m_Modifications:
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1655.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -159.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755047184450819647, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_Name
+      value: Potion (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+--- !u!4 &602720243 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+  m_PrefabInstance: {fileID: 602720242}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &613255480 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4661612576759040378, guid: ddef60b90d6a58f43bdc51cb9eb9b834, type: 3}
@@ -10683,7 +10747,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &755166542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11663,7 +11727,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &877384178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11985,7 +12049,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 5}
+  m_Size: {x: 2, y: 4}
   m_EdgeRadius: 0
 --- !u!95 &930257498
 Animator:
@@ -12570,7 +12634,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4.8, y: 4.8}
+  m_Size: {x: 4, y: 4}
   m_Direction: 0
 --- !u!50 &1053276911
 Rigidbody2D:
@@ -12926,7 +12990,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &1081181662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13115,7 +13179,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &1092544947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33718,6 +33782,68 @@ MonoBehaviour:
   _playerLayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!1001 &1229823315
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 506760887}
+    m_Modifications:
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1669.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -176.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755047184450819647, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+      propertyPath: m_Name
+      value: Potion (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+--- !u!4 &1229823316 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1574084907329221185, guid: 9303daf252fd71149ac68af507d99b5d, type: 3}
+  m_PrefabInstance: {fileID: 1229823315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1234196610 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4661612576759040378, guid: ddef60b90d6a58f43bdc51cb9eb9b834, type: 3}
@@ -34318,7 +34444,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &1315578254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34660,7 +34786,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &1327637091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35409,7 +35535,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4.8, y: 4.8}
+  m_Size: {x: 4, y: 4}
   m_Direction: 0
 --- !u!50 &1458866605
 Rigidbody2D:
@@ -36594,7 +36720,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &1705872491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36929,7 +37055,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &1735443589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60265,7 +60391,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &1795187226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60415,7 +60541,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 5}
+  m_Size: {x: 2, y: 4}
   m_EdgeRadius: 0
 --- !u!95 &1802552761
 Animator:
@@ -60692,7 +60818,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 1.5
 --- !u!114 &1829493595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61338,7 +61464,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 5}
+  m_Size: {x: 2, y: 4}
   m_EdgeRadius: 0
 --- !u!95 &1948034428
 Animator:
@@ -61664,7 +61790,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4.8, y: 4.8}
+  m_Size: {x: 4, y: 4}
   m_Direction: 0
 --- !u!50 &1960084071
 Rigidbody2D:
@@ -62328,7 +62454,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 5}
+  m_Size: {x: 2, y: 4}
   m_EdgeRadius: 0
 --- !u!95 &1989453583
 Animator:
@@ -63070,7 +63196,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4.8, y: 4.8}
+  m_Size: {x: 4, y: 4}
   m_Direction: 0
 --- !u!50 &2066325116
 Rigidbody2D:
