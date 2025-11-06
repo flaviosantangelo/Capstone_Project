@@ -43961,24 +43961,23 @@ MonoBehaviour:
   - {fileID: 790195802}
   - {fileID: 1951211024}
   _searchWaypoints:
-  - {fileID: 2056801017}
-  - {fileID: 1837075560}
-  - {fileID: 149437148}
-  - {fileID: 1259580467}
-  - {fileID: 1944383523}
-  - {fileID: 1651066510}
-  - {fileID: 731813626}
-  - {fileID: 2109394309}
-  - {fileID: 688609266}
-  - {fileID: 25043316}
-  - {fileID: 1577604860}
-  - {fileID: 1577604860}
-  - {fileID: 1979016788}
-  - {fileID: 103941060}
-  - {fileID: 229730678}
-  - {fileID: 1817201457}
-  - {fileID: 790195802}
   - {fileID: 1951211024}
+  - {fileID: 790195802}
+  - {fileID: 1817201457}
+  - {fileID: 103941060}
+  - {fileID: 1979016788}
+  - {fileID: 1577604860}
+  - {fileID: 25043316}
+  - {fileID: 688609266}
+  - {fileID: 2109394309}
+  - {fileID: 731813626}
+  - {fileID: 1651066510}
+  - {fileID: 1944383523}
+  - {fileID: 1259580467}
+  - {fileID: 149437148}
+  - {fileID: 229730678}
+  - {fileID: 1837075560}
+  - {fileID: 2056801017}
   _visionConeTransform: {fileID: 556501462}
   _patrolSpeed: 2
   _searchSpeed: 4
