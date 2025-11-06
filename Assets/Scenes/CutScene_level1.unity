@@ -571,7 +571,7 @@ MonoBehaviour:
   _sceneToLoad: Level1
   _narrativeText: {fileID: 1458018104}
   _continuePrompt: {fileID: 1004340176}
-  _typingSpeed: 0.04
+  _typingSpeed: 0.06
 --- !u!4 &1117375983
 Transform:
   m_ObjectHideFlags: 0
