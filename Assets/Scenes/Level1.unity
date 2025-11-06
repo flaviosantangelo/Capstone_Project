@@ -20987,7 +20987,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &118806743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21545,7 +21545,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &237202050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21689,7 +21689,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 4.5, y: 4.5}
   m_Direction: 0
 --- !u!50 &267326976
 Rigidbody2D:
@@ -22270,7 +22270,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 4}
+  m_Size: {x: 2, y: 5}
   m_EdgeRadius: 0
 --- !u!95 &338300661
 Animator:
@@ -22723,7 +22723,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &424958656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33841,7 +33841,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 4}
+  m_Size: {x: 2, y: 5}
   m_EdgeRadius: 0
 --- !u!95 &834381866
 Animator:
@@ -35643,7 +35643,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &1017905774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36235,7 +36235,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &1069752421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37172,7 +37172,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 4.5, y: 4.5}
   m_Direction: 0
 --- !u!50 &1285089597
 Rigidbody2D:
@@ -37584,7 +37584,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &1308394719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37741,7 +37741,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &1326884294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38362,7 +38362,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 4.5, y: 4.5}
   m_Direction: 0
 --- !u!50 &1406006452
 Rigidbody2D:
@@ -38951,7 +38951,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 4}
+  m_Size: {x: 2, y: 5}
   m_EdgeRadius: 0
 --- !u!95 &1454782108
 Animator:
@@ -39159,7 +39159,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &1457518517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39457,7 +39457,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &1487981523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41799,7 +41799,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 4.5, y: 4.5}
   m_Direction: 0
 --- !u!50 &1662442731
 Rigidbody2D:
@@ -42069,7 +42069,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 4}
+  m_Size: {x: 2, y: 5}
   m_EdgeRadius: 0
 --- !u!95 &1669041041
 Animator:
@@ -42468,7 +42468,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 4}
+  m_Size: {x: 2, y: 5}
   m_EdgeRadius: 0
 --- !u!95 &1706184351
 Animator:
@@ -42847,7 +42847,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &1740599071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43867,7 +43867,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 4}
+  m_Size: {x: 2, y: 5}
   m_EdgeRadius: 0
 --- !u!95 &1869490795
 Animator:
@@ -45005,7 +45005,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!114 &1987726804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45790,7 +45790,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 4}
+  m_Size: {x: 2, y: 5}
   m_EdgeRadius: 0
 --- !u!95 &2138036848
 Animator:
